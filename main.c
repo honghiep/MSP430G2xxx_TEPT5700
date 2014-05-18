@@ -6,24 +6,23 @@
 
 /******************************************************************************
  *
- * C7 TRAINING
+ * C11 TRAINING
  *
  ******************************************************************************/
 
 /******************************************************************************
  *
- *  Module         : VOLTAGE MESURE
+ *  Module         : LIGHT SENSOR
  *  Description    : This file describes API functions that support for
  *    				 ADC module on MSP430G2553
  *
- *  Tool           : CCS 5.1
+ *  Tool           : CCS 5.4
  *  Chip           : MSP430G2553
- *  History        : 04-11-2012
+ *  History        : 18-05-2014
  *  Version        : 1.1
  *
  *  Author         : NHH
- *  Notes          : To apply these functions, you must include the header file lcd.h and
- *                   source file lcd.c to your project.
+ *  Notes          : 
  *
  *
 ******************************************************************************/
@@ -38,10 +37,10 @@
 *                      | |                 |
 *                      --|RST          XOUT|-
 *                        |                 |
-* Analog signal input >--|P1.1/A1          |--> ||
-*                        |                 |-->	|| Out to LCD
-*                        |				   |--> || Described in LCD.c
-*                        |				   |--> ||
+* Analog signal input >--|P1.0/A0          |
+*                        |                 |
+*                        |				   |
+*                        |				   |
 *                        |				   |
 *
 ******************************************************************************/
